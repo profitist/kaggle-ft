@@ -1,0 +1,24 @@
+# Data
+*.csv
+!submission.csv
+*.zip
+
+# Python env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Optuna / ML artifacts
+*.db
+*.log
+
+# Claude
+.claude/
